@@ -1,9 +1,7 @@
 package iteration
 
-const repeatCount = 5
-
-func Repeat(input string) (repeated string) {
-	for i := 0; i < repeatCount; i++ {
+func Repeat(input string, times int) (repeated string) {
+	for i := 0; i < times; i++ {
 		repeated += input
 	}
 	return repeated
