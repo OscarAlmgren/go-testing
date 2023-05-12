@@ -1,11 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-	numbers := []int{1, 2, 3, 4, 5}
-	fmt.Println(Sum(numbers))
-}
+package sum
 
 func Sum(numbers []int) (sum int) {
 	sum = 0
